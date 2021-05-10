@@ -13,5 +13,5 @@ setup(
     keywords='assignment',  # Optional
     packages=['mymodule'],  # Required
     python_requires='>=3.6, <4',
-    install_requires=['pandas','numpy'],  # Optional
+    install_requires=['pandas', 'numpy'],  # Optional
 )
