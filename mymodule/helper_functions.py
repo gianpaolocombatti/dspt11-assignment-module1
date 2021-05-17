@@ -6,7 +6,7 @@ class Helper:
         self.df = df
 
     def null_count(self):
-        return(self.df.isna().sum().sum())
+        return(self.df.isnull().sum().sum())
 
     def train_test_split(self, frac):
         test_indexes = np.random.choice(
@@ -20,3 +20,4 @@ class Helper:
             f'train DF = {train_df.shape}')
         return (test_df, train_df)
 
+print("hello world")
